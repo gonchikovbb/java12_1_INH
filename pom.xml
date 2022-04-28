@@ -59,17 +59,17 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>jacoco-check-qaz123</id>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
+<!--                        <id>jacoco-check-qaz123</id>-->
+<!--                        <goals>-->
+<!--                            <goal>check</goal>-->
+<!--                        </goals>-->
                         <configuration>
                             <rules>
                                 <rule>
                                     <element>PACKAGE</element>
                                     <limits>
                                         <limit>
-                                            <counter>BRANCH</counter>
+                                            <counter>LINE</counter>
                                             <value>COVEREDRATIO</value>
                                             <minimum>100%</minimum>
                                         </limit>
